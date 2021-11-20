@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>887</width>
+    <height>543</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>221</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.506, y1:0, x2:0.517, y2:1, stop:0 rgba(143, 173, 171, 255), stop:0.585227 rgba(84, 114, 178, 255), stop:1 rgba(24, 53, 184, 255));
+border-radius: 20px;</string>
+    </property>
+    <widget class="QPushButton" name="connect">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>150</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 9pt &quot;Agency FB&quot;;
+font-weight: Bold;
+border-radius: 40px;
+</string>
+     </property>
+     <property name="text">
+      <string>CONNECT</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="exit">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>440</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(167, 58, 7);
+color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>EXIT</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="rezero" native="true">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>671</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.489, x2:1, y2:0.517, stop:0 rgba(255, 255, 255, 255), stop:0.977273 rgba(204, 250, 221, 255));
+border-radius: 20px;</string>
+    </property>
+    <widget class="QLineEdit" name="inputid">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>40</y>
+       <width>481</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 8pt &quot;Papyrus&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="logo">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>360</y>
+       <width>571</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 114, 246, 255), stop:0.375 rgba(153, 132, 225, 255), stop:0.613636 rgba(96, 138, 248, 255), stop:1 rgba(245, 147, 201, 255));
+color: rgb(255, 255, 255);
+font: 10pt &quot;Centaur&quot;;
+font-weight: bold;
+border-radius: 0px;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="getinfo">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>40</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.489, x2:1, y2:0.489, stop:0 rgba(147, 122, 255, 255), stop:0.982955 rgba(255, 171, 171, 255));
+color: rgb(255, 255, 255);
+border-radius: 15px;
+font: 75 10pt &quot;Agency FB&quot;;
+font-weight: Bold;
+</string>
+     </property>
+     <property name="text">
+      <string>Get Info</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="dirchooser">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>320</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.489, x2:1, y2:0.489, stop:0 rgba(147, 122, 255, 255), stop:0.982955 rgba(255, 171, 171, 255));
+color: rgb(255, 255, 255);
+border-radius: 15px;
+font: 75 10pt &quot;Agency FB&quot;;
+font-weight: Bold;
+</string>
+     </property>
+     <property name="text">
+      <string>Choose Directory</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="download">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>320</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.489, x2:1, y2:0.489, stop:0 rgba(147, 122, 255, 255), stop:0.982955 rgba(255, 171, 171, 255));
+color: rgb(255, 255, 255);
+border-radius: 15px;
+font: 75 10pt &quot;Agency FB&quot;;
+font-weight: Bold;
+</string>
+     </property>
+     <property name="text">
+      <string>Download</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="listid">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>90</y>
+       <width>571</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Centaur&quot;;
+font-weight: bold;
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(114, 190, 255, 255), stop:0.375 rgba(153, 132, 225, 255), stop:0.613636 rgba(96, 138, 248, 255), stop:1 rgba(148, 192, 194, 255));
+color: rgb(255, 255, 255);
+font-weight: bold;
+border-radius: 0px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustIgnored</enum>
+     </property>
+     <property name="showDropIndicator" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::NoSelection</enum>
+     </property>
+     <property name="showGrid">
+      <bool>false</bool>
+     </property>
+     <property name="gridStyle">
+      <enum>Qt::NoPen</enum>
+     </property>
+     <property name="sortingEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderHighlightSections">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderHighlightSections">
+      <bool>false</bool>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>blank space</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>File Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Type</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Size</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Progress</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QProgressBar" name="progress">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>460</y>
+       <width>571</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+     <property name="textVisible">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="dirlabel">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>320</y>
+       <width>331</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 8pt &quot;Papyrus&quot;;
+</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>rezero</zorder>
+   <zorder>widget</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
